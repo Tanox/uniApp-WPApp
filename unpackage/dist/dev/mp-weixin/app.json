@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "WPApp",
+    "navigationBarBackgroundColor": "#000000;",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#a1a1a1",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "black",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户"
+      }
+    ]
+  }
+}
